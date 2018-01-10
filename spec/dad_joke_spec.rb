@@ -16,10 +16,6 @@ describe DadJoke do
      expect(@joke.id).to be_a(String)
    end
 
-   it "should return a string for id" do
-     expect(@joke.id.length).to eq(11)
-   end
-
    it "should return a integer for status" do
      expect(@joke.status).to be_a(Integer)
    end
